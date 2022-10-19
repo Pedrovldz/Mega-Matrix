@@ -37,7 +37,7 @@ else:
 print(f'A soma dos itens da terceira coluna é {num[0][2] + num[1][2] + num[2][2]}')
 print(f'O maior valor dos itens da segunda linha é {max(num[1])}')
 
-if len(num) > 1:
+if len(num) >= 3:
     if num[0][0] == 1:
         num[0][0] = '!'
     elif num[0][0] == 2:
